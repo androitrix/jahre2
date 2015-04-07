@@ -21,7 +21,7 @@ import org.thymeleaf.templateresolver.TemplateResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"nz.co.jahre2.controller"})
+@ComponentScan(basePackages = {"nz.co.jahre2.controller", "nz.co.jahre2.service"})
 public class ServletContextConfig extends WebMvcConfigurerAdapter{
 
 	@Override
